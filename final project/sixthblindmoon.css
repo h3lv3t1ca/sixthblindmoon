@@ -1,0 +1,111 @@
+/*** Header Style ***/
+header {
+    background-image: linear-gradient(to right, #63729b, #cfd5e4);
+    background-color:#cfd5e4 ;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+}
+
+/*** Navigation Style ***/
+nav {
+    font-weight: bold;
+    padding: 1em;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #a9adb6;
+    }
+nav a {
+    text-decoration: none;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    font-size: 1.2em;
+}
+nav:link {
+    color: #a4bed8;
+}
+
+nav:hover {
+    color: #ffffff;
+}
+nav li {
+    display: inline-block;
+}   
+
+#homecontainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+    /*** text stuff ***/
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+/*** for background ***/
+body {
+    background-image: linear-gradient(#120d77,#2e4ca2);
+    background-repeat: no-repeat;
+    font-family: 'Courier New', Courier, monospace;
+}
+#suggestad {
+    min-width: 250px;
+}
+
+#recentupdatehome {
+    display: flex;
+    justify-content: flex-start;
+    min-width: 25%;
+    padding: 1em;
+    background-color: aliceblue;
+ img {width: 100px;}
+}
+
+#recentproducthome {
+    display: flex;
+    justify-content: flex-start;
+    min-width: 25%;
+    padding: 1em;
+    background-color: aliceblue;
+ img {width: 100px;}
+}
+
+#buttonsandinfo {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    font-weight: bold;
+    align-items: center;
+    padding-left: 1em;
+}
+
+/*** Footer Style ***/
+footer {
+    background-image: linear-gradient(to left, #63729b, #cfd5e4);
+    background-color: #cfd5e4;
+    margin-top: 1em;
+    padding: 5px ;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+footer li {
+    text-decoration: none;
+}
+footer ul {
+    list-style-type: none;
+}
+
+#updatepost {
+    background-color: #96a6cf;
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 1em;
+}
+#about {
+    background-image: linear-gradient(#4b83ec, #8daad1);
+}
